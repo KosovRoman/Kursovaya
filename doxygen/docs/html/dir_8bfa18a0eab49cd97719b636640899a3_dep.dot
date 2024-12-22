@@ -1,0 +1,11 @@
+digraph "/home/student/Документы/kosov/client/source/modules"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_725f5f5303c9bb1b08a5bd2b0225fb6e {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", style="filled,dashed,", label="source", fontname="Helvetica", fontsize="10", URL="dir_725f5f5303c9bb1b08a5bd2b0225fb6e.html"]
+  dir_8bfa18a0eab49cd97719b636640899a3 [shape=box, label="modules", style="filled,bold,", fillcolor="#edf0f7", color="grey25", URL="dir_8bfa18a0eab49cd97719b636640899a3.html"];
+  }
+}

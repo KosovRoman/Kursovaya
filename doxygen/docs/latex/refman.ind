@@ -1,0 +1,117 @@
+\begin{theindex}
+
+  \item {/home/student/Документы/kosov/client/source/main.cpp}, 
+		\hyperpage{27}
+  \item {/home/student/Документы/kosov/client/source/modules/crypt.h}, 
+		\hyperpage{25, 26}
+  \item {/home/student/Документы/kosov/client/source/modules/errors.h}, 
+		\hyperpage{23, 24}
+  \item {/home/student/Документы/kosov/client/source/modules/io.h}, 
+		\hyperpage{26, 27}
+  \item {/home/student/Документы/kosov/client/source/modules/network.h}, 
+		\hyperpage{21, 22}
+  \item {/home/student/Документы/kosov/client/source/modules/ui.h}, 
+		\hyperpage{22, 23}
+
+  \indexspace
+
+  \item {ArgsDecodeError}, \hyperpage{7}
+  \item {auth}
+    \subitem {NetworkManager}, \hyperpage{16}
+  \item {AuthError}, \hyperpage{7}
+    \subitem {AuthError}, \hyperpage{7}
+
+  \indexspace
+
+  \item {BasicClientError}, \hyperpage{8}
+    \subitem {BasicClientError}, \hyperpage{8}
+    \subitem {what}, \hyperpage{9}
+
+  \indexspace
+
+  \item {calc}
+    \subitem {NetworkManager}, \hyperpage{16}
+  \item {conf}
+    \subitem {IOManager}, \hyperpage{13}
+  \item {conn}
+    \subitem {NetworkManager}, \hyperpage{17}
+  \item {CryptManager}, \hyperpage{9}
+    \subitem {get\_hash}, \hyperpage{9}
+    \subitem {get\_salt}, \hyperpage{10}
+
+  \indexspace
+
+  \item {DataDecodeError}, \hyperpage{10}
+    \subitem {DataDecodeError}, \hyperpage{10}
+
+  \indexspace
+
+  \item {get\_hash}
+    \subitem {CryptManager}, \hyperpage{9}
+  \item {get\_salt}
+    \subitem {CryptManager}, \hyperpage{10}
+  \item {getAddress}
+    \subitem {NetworkManager}, \hyperpage{17}
+    \subitem {UserInterface}, \hyperpage{19}
+  \item {getConfigPath}
+    \subitem {UserInterface}, \hyperpage{19}
+  \item {getInputPath}
+    \subitem {UserInterface}, \hyperpage{19}
+  \item {getOutputPath}
+    \subitem {UserInterface}, \hyperpage{19}
+  \item {getPort}
+    \subitem {NetworkManager}, \hyperpage{17}
+    \subitem {UserInterface}, \hyperpage{20}
+
+  \indexspace
+
+  \item {IOError}, \hyperpage{11}
+    \subitem {IOError}, \hyperpage{11}
+  \item {IOManager}, \hyperpage{12}
+    \subitem {conf}, \hyperpage{13}
+    \subitem {IOManager}, \hyperpage{12}
+    \subitem {read}, \hyperpage{13}
+    \subitem {write}, \hyperpage{13}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{28}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{28}
+
+  \indexspace
+
+  \item {NetworkError}, \hyperpage{14}
+    \subitem {NetworkError}, \hyperpage{14}
+  \item {NetworkManager}, \hyperpage{15}
+    \subitem {auth}, \hyperpage{16}
+    \subitem {calc}, \hyperpage{16}
+    \subitem {conn}, \hyperpage{17}
+    \subitem {getAddress}, \hyperpage{17}
+    \subitem {getPort}, \hyperpage{17}
+    \subitem {NetworkManager}, \hyperpage{15}
+
+  \indexspace
+
+  \item {read}
+    \subitem {IOManager}, \hyperpage{13}
+
+  \indexspace
+
+  \item {UserInterface}, \hyperpage{18}
+    \subitem {getAddress}, \hyperpage{19}
+    \subitem {getConfigPath}, \hyperpage{19}
+    \subitem {getInputPath}, \hyperpage{19}
+    \subitem {getOutputPath}, \hyperpage{19}
+    \subitem {getPort}, \hyperpage{20}
+    \subitem {UserInterface}, \hyperpage{18}
+
+  \indexspace
+
+  \item {what}
+    \subitem {BasicClientError}, \hyperpage{9}
+  \item {write}
+    \subitem {IOManager}, \hyperpage{13}
+
+\end{theindex}

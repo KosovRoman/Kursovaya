@@ -1,0 +1,63 @@
+\hypertarget{classCryptManager}{}\doxysection{Класс Crypt\+Manager}
+\label{classCryptManager}\index{CryptManager@{CryptManager}}
+
+
+Класс для выполнения криптографических операций.  
+
+
+
+
+{\ttfamily \#include $<$crypt.\+h$>$}
+
+\doxysubsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static std\+::string \mbox{\hyperlink{classCryptManager_ab506fc5b0fd8b89f021a39c505d52b20}{get\+\_\+salt}} ()
+\begin{DoxyCompactList}\small\item\em Статический метод для генерации соли. \end{DoxyCompactList}\item 
+static std\+::string \mbox{\hyperlink{classCryptManager_a3f2c04fdff85750999655adad66a6625}{get\+\_\+hash}} (const std\+::string \&salt, const std\+::string \&data)
+\begin{DoxyCompactList}\small\item\em Статический метод для вычисления хеша. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для выполнения криптографических операций. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classCryptManager_a3f2c04fdff85750999655adad66a6625}\label{classCryptManager_a3f2c04fdff85750999655adad66a6625}} 
+\index{CryptManager@{CryptManager}!get\_hash@{get\_hash}}
+\index{get\_hash@{get\_hash}!CryptManager@{CryptManager}}
+\doxysubsubsection{\texorpdfstring{get\_hash()}{get\_hash()}}
+{\footnotesize\ttfamily std\+::string Crypt\+Manager\+::get\+\_\+hash (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{salt,  }\item[{const std\+::string \&}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Статический метод для вычисления хеша. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em salt} & Соль, используемая для хеширования. \\
+\hline
+{\em data} & Данные, которые нужно захешировать. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Вычисленный хеш. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCryptManager_ab506fc5b0fd8b89f021a39c505d52b20}\label{classCryptManager_ab506fc5b0fd8b89f021a39c505d52b20}} 
+\index{CryptManager@{CryptManager}!get\_salt@{get\_salt}}
+\index{get\_salt@{get\_salt}!CryptManager@{CryptManager}}
+\doxysubsubsection{\texorpdfstring{get\_salt()}{get\_salt()}}
+{\footnotesize\ttfamily std\+::string Crypt\+Manager\+::get\+\_\+salt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Статический метод для генерации соли. 
+
+\begin{DoxyReturn}{Возвращает}
+Сгенерированная соль. 
+\end{DoxyReturn}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+/home/student/Документы/kosov/client/source/modules/\mbox{\hyperlink{crypt_8h}{crypt.\+h}}\item 
+/home/student/Документы/kosov/client/source/modules/crypt.\+cpp\end{DoxyCompactItemize}

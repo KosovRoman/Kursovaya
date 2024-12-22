@@ -1,0 +1,35 @@
+\hypertarget{io_8h_source}{}\doxysection{io.\+h}
+\label{io_8h_source}\index{/home/student/Документы/kosov/client/source/modules/io.h@{/home/student/Документы/kosov/client/source/modules/io.h}}
+\mbox{\hyperlink{io_8h}{См. документацию.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef IO\_MANAGER\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define IO\_MANAGER\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <array>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{errors_8h}{errors.h}}"{}}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{22 \textcolor{keyword}{class }\mbox{\hyperlink{classIOManager}{IOManager}} \{}
+\DoxyCodeLine{23 \textcolor{keyword}{public}:}
+\DoxyCodeLine{30     \mbox{\hyperlink{classIOManager_a8335200b55b9a1482d4f8f0132333eea}{IOManager}}(}
+\DoxyCodeLine{31         \textcolor{keyword}{const} std::string\& path\_to\_conf, }
+\DoxyCodeLine{32         \textcolor{keyword}{const} std::string\& path\_to\_in, }
+\DoxyCodeLine{33         \textcolor{keyword}{const} std::string\& path\_to\_out}
+\DoxyCodeLine{34     );}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{42     std::array<std::string, 2> \mbox{\hyperlink{classIOManager_a10d018ac592af8de2d30bffc367f1e94}{conf}}();}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{49     std::vector<std::vector<uint32\_t>> \mbox{\hyperlink{classIOManager_aa5e96d6aa373ffaa4ca9bb2b92140a3c}{read}}();}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{56     \textcolor{keywordtype}{void} \mbox{\hyperlink{classIOManager_abbb52881be858a339b111fcb94670ef8}{write}}(\textcolor{keyword}{const} std::vector<uint32\_t>\& data);}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58 \textcolor{keyword}{private}:}
+\DoxyCodeLine{59     std::string path\_to\_conf; }
+\DoxyCodeLine{60     std::string path\_to\_in; }
+\DoxyCodeLine{61     std::string path\_to\_out; }
+\DoxyCodeLine{62 \};}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// IO\_MANAGER\_H}}
+
+\end{DoxyCode}

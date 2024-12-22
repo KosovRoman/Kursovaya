@@ -1,0 +1,16 @@
+digraph "/home/student/Документы/kosov/client/source"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_1f1cb5cfa9a6b503d4b908dc95dcdc51 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", style="filled,dashed,", label="client", fontname="Helvetica", fontsize="10", URL="dir_1f1cb5cfa9a6b503d4b908dc95dcdc51.html"]
+  subgraph clusterdir_725f5f5303c9bb1b08a5bd2b0225fb6e {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", style="filled,bold,", label="", fontname="Helvetica", fontsize="10", URL="dir_725f5f5303c9bb1b08a5bd2b0225fb6e.html"]
+    dir_725f5f5303c9bb1b08a5bd2b0225fb6e [shape=plaintext, label="source"];
+  dir_8bfa18a0eab49cd97719b636640899a3 [shape=box, label="modules", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_8bfa18a0eab49cd97719b636640899a3.html"];
+  }
+  }
+  dir_725f5f5303c9bb1b08a5bd2b0225fb6e->dir_8bfa18a0eab49cd97719b636640899a3 [headlabel="1", labeldistance=1.5 headhref="dir_000004_000003.html"];
+}

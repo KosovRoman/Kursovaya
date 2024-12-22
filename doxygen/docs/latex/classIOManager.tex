@@ -1,0 +1,114 @@
+\hypertarget{classIOManager}{}\doxysection{Класс IOManager}
+\label{classIOManager}\index{IOManager@{IOManager}}
+
+
+Класс для управления вводом и выводом данных.  
+
+
+
+
+{\ttfamily \#include $<$io.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classIOManager_a8335200b55b9a1482d4f8f0132333eea}{IOManager}} (const std\+::string \&path\+\_\+to\+\_\+conf, const std\+::string \&path\+\_\+to\+\_\+in, const std\+::string \&path\+\_\+to\+\_\+out)
+\begin{DoxyCompactList}\small\item\em Конструктор класса \mbox{\hyperlink{classIOManager}{IOManager}}. \end{DoxyCompactList}\item 
+std\+::array$<$ std\+::string, 2 $>$ \mbox{\hyperlink{classIOManager_a10d018ac592af8de2d30bffc367f1e94}{conf}} ()
+\begin{DoxyCompactList}\small\item\em Метод для чтения конфигурационных данных. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::vector$<$ uint32\+\_\+t $>$ $>$ \mbox{\hyperlink{classIOManager_aa5e96d6aa373ffaa4ca9bb2b92140a3c}{read}} ()
+\begin{DoxyCompactList}\small\item\em Метод для чтения данных из файла. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classIOManager_abbb52881be858a339b111fcb94670ef8}{write}} (const std\+::vector$<$ uint32\+\_\+t $>$ \&data)
+\begin{DoxyCompactList}\small\item\em Метод для записи данных в файл. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для управления вводом и выводом данных. 
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{classIOManager_a8335200b55b9a1482d4f8f0132333eea}\label{classIOManager_a8335200b55b9a1482d4f8f0132333eea}} 
+\index{IOManager@{IOManager}!IOManager@{IOManager}}
+\index{IOManager@{IOManager}!IOManager@{IOManager}}
+\doxysubsubsection{\texorpdfstring{IOManager()}{IOManager()}}
+{\footnotesize\ttfamily IOManager\+::\+IOManager (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{path\+\_\+to\+\_\+conf,  }\item[{const std\+::string \&}]{path\+\_\+to\+\_\+in,  }\item[{const std\+::string \&}]{path\+\_\+to\+\_\+out }\end{DoxyParamCaption})}
+
+
+
+Конструктор класса \mbox{\hyperlink{classIOManager}{IOManager}}. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em path\+\_\+to\+\_\+conf} & Путь к файлу конфигурации. \\
+\hline
+{\em path\+\_\+to\+\_\+in} & Путь к входному файлу. \\
+\hline
+{\em path\+\_\+to\+\_\+out} & Путь к выходному файлу. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classIOManager_a10d018ac592af8de2d30bffc367f1e94}\label{classIOManager_a10d018ac592af8de2d30bffc367f1e94}} 
+\index{IOManager@{IOManager}!conf@{conf}}
+\index{conf@{conf}!IOManager@{IOManager}}
+\doxysubsubsection{\texorpdfstring{conf()}{conf()}}
+{\footnotesize\ttfamily std\+::array$<$ std\+::string, 2 $>$ IOManager\+::conf (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод для чтения конфигурационных данных. 
+
+\begin{DoxyReturn}{Возвращает}
+Массив строк с конфигурационными данными. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Исключения}
+{\em \mbox{\hyperlink{classIOError}{IOError}}} & Если не удалось открыть файл конфигурации. \\
+\hline
+{\em \mbox{\hyperlink{classDataDecodeError}{Data\+Decode\+Error}}} & Если отсутствуют логин или пароль. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classIOManager_aa5e96d6aa373ffaa4ca9bb2b92140a3c}\label{classIOManager_aa5e96d6aa373ffaa4ca9bb2b92140a3c}} 
+\index{IOManager@{IOManager}!read@{read}}
+\index{read@{read}!IOManager@{IOManager}}
+\doxysubsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$ uint32\+\_\+t $>$ $>$ IOManager\+::read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод для чтения данных из файла. 
+
+\begin{DoxyReturn}{Возвращает}
+Двумерный вектор с данными. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Исключения}
+{\em \mbox{\hyperlink{classIOError}{IOError}}} & Если не удалось открыть входной файл для чтения. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classIOManager_abbb52881be858a339b111fcb94670ef8}\label{classIOManager_abbb52881be858a339b111fcb94670ef8}} 
+\index{IOManager@{IOManager}!write@{write}}
+\index{write@{write}!IOManager@{IOManager}}
+\doxysubsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily void IOManager\+::write (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ uint32\+\_\+t $>$ \&}]{data }\end{DoxyParamCaption})}
+
+
+
+Метод для записи данных в файл. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em data} & Вектор данных для записи. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Исключения}
+{\em \mbox{\hyperlink{classIOError}{IOError}}} & Если не удалось открыть выходной файл для записи. \\
+\hline
+\end{DoxyExceptions}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+/home/student/Документы/kosov/client/source/modules/\mbox{\hyperlink{io_8h}{io.\+h}}\item 
+/home/student/Документы/kosov/client/source/modules/io.\+cpp\end{DoxyCompactItemize}
